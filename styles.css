@@ -1,3 +1,48 @@
 body {
-  background: blue;
+  font-family: Helvetica;
+  max-width: 960px;
+}
+
+img {
+  max-width: 550px;
+}
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: orange;
+}
+.formfield {
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.license {
+  font-size: .8em
+}
+
+button {
+  margin-top:3px;
+}
+
+#underconst {
+  background-image: url(light-sign.jpg);
+  background-image: no-repeat;
+  color: white;
+  height: 426px;
+}
+
+footer {
+  margin: auto;
+  font-family: "Century Gothic";
+}
+address {
+  margin-left:40%;
+}
+
+@media screen and (max-width: 600px) {
+  button {
+    font-size: 1.5em;
+  }
 }
